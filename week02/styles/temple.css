@@ -12,8 +12,7 @@ header {
 }
 
 main {
-    width: 400px;
-    margin: 0 auto;
+    max-width: 840px;
 }
 
 h1 {
