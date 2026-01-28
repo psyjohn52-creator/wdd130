@@ -1,6 +1,5 @@
 :root {
     --primary-color: rgb(0, 0, 0);
-    --secondary-color: #c1ce4d;
     --accent1-color: #000000;
     --accent2-color: #339282;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -72,7 +71,7 @@ h2 {
     text-align: center;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 390px;
     color: #fff;
