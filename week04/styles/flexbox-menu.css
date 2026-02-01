@@ -16,7 +16,9 @@ nav ul {
     justify-content: space-around;
     align-items: center;
 }
-
+/*nav li {
+    flex: 1 1 auto;
+}*/
 nav a {
     display: block;
     color: #fff;
