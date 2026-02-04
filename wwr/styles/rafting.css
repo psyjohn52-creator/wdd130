@@ -18,9 +18,15 @@ body {
 }
 
 header {
+    background-color: var(--accent2-color);
     display: grid;
     grid-template-columns: 300px 1fr;
     align-items: center;
+    color: #000;
+}
+
+header img {
+    width: 150px;
 }
 
 nav ul {
