@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(0, 0, 0);
+    --primary-color: #000;
     --accent1-color: #000000;
     --accent2-color: #4cd3bc;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -39,7 +39,7 @@ nav li {
 }
 
 nav a:hover {
-    color: tomato;
+    color: #FF6347;
     text-decoration: underline;
 }
 
