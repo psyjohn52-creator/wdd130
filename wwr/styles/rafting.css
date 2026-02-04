@@ -133,7 +133,6 @@ section p {
 }
 
 footer {
-    display: block;
     border-top: solid 1px #000;
     display: flex;
     align-items: center;
