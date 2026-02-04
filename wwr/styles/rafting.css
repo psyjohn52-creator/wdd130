@@ -97,6 +97,7 @@ h1 {
 h2 {
     color: #000000;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .use-grid {
@@ -111,6 +112,11 @@ h2 {
 
 section p {
     text-align: justify;
+}
+
+.places {
+    display: flex;
+    justify-content: space-around;
 }
 
 .hero article {
@@ -129,4 +135,20 @@ section p {
 footer {
     display: block;
     border-top: solid 1px #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer p {
+    padding-top: 15px;
+}
+
+footer img {
+    width: 25px;
+}
+
+footer a {
+    justify-content: flex-end;
 }
