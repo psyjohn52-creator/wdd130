@@ -61,6 +61,30 @@ h2 {
     color: var(--primary-color);
 }
 
+.container {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    align-items: flex-start;
+}
+
+.map {
+    flex: 1;
+}
+
+.map iframe {
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+
+form {
+    flex: 1;
+    padding: 10px;
+    background-color: #f3ebeb;
+    border-radius: 8px;
+}
+
 nav,
 p,
 section,
@@ -100,10 +124,58 @@ h2 {
     padding-bottom: 20px;
 }
 
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.company {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: var(--primary-color);
+}
+
+.contact-data {
+    margin: 2px 0;
+    padding: 0;
+    font-size: 15px;
+}
+
 .use-grid {
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
     align-items: center;
+}
+
+form {
+    width: 650px;
+    height: 350px;
+    padding: 1rem;
+    border: 1px black solid;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+label {
+    text-align: left;
+
+}
+
+.form-item,
+.message {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 3fr;
 }
 
 .float-image {
@@ -114,7 +186,27 @@ section p {
     text-align: justify;
 }
 
-.places {
+.purpose-selection {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: start;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.purpose-selection p {
+    margin: 0;
+    text-align: left;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.places,
+.employes {
     display: flex;
     justify-content: space-around;
 }
