@@ -78,13 +78,6 @@ h2 {
     display: block;
 }
 
-form {
-    flex: 1;
-    padding: 10px;
-    background-color: #f3ebeb;
-    border-radius: 8px;
-}
-
 nav,
 p,
 section,
@@ -151,6 +144,7 @@ h2 {
 form {
     width: 650px;
     height: 350px;
+    flex: 1;
     padding: 1rem;
     border: 1px black solid;
     border-radius: 0.5rem;
