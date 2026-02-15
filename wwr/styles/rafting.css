@@ -100,8 +100,13 @@ article {
     height: auto;
 }
 
-h1 {
-    position: absolute;
+h1,
+h1.company {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: var(--primary-color);
+    position: static;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -120,13 +125,6 @@ h2 {
 .info {
     text-align: center;
     margin-bottom: 20px;
-}
-
-.company {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 10px 0;
-    color: var(--primary-color);
 }
 
 .contact-data {
